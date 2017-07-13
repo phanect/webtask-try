@@ -1,0 +1,15 @@
+{
+  "name": "webtask-try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wt-try.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "private": true,
+  "devDependencies": {
+    "@phanect/eslint-config-phanective": "latest",
+    "eslint": "^4.2.0"
+  }
+}
