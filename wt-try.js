@@ -1,7 +1,5 @@
 "use strict";
 
-// wt create --secret email="your@email.address" --secret sgApiKey="SENDGRID_API_KEY" wt-try.js
-
 // Create IFTTT applet: If new tweet from search for [SEARCH-TERM], then make a web request:
 // https://wt-blahblah-0.run.webtask.io/webtask-try?tweet={{LinkToTweet}}
 
