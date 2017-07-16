@@ -35,8 +35,8 @@ module.exports = (ctx, done) => {
   });
 
   sg.API(request).then(() => {
-      done(null, "Email Successfully Sent");
-    }).catch(function (error) {
-      done(null, error.response.statusCode + ": Failed to send email");
-    });
-}
+    done(null, "Email Successfully Sent");
+  }).catch((err) => {
+    done(null, err.response.statusCode + ": Failed to send email");
+  });
+};
