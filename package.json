@@ -11,5 +11,8 @@
   "devDependencies": {
     "@phanect/eslint-config-phanective": "latest",
     "eslint": "^4.2.0"
+  },
+  "dependencies": {
+    "sendgrid": "^5.1.2"
   }
 }
